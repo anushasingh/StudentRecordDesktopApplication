@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="650.0" maxWidth="1024.0" minHeight="650.0" minWidth="1024.0" prefHeight="650.0" prefWidth="1024.0" style="-fx-background-color: #E3F2FD;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FirstController">
+   <children>
+      <TableView fx:id="tv" layoutX="36.0" layoutY="69.0" prefHeight="227.0" prefWidth="716.0" style="-fx-background-color: #90CAF9;">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="132.0" text="Name" />
+          <TableColumn fx:id="sno" prefWidth="93.0" text="Admission no" />
+            <TableColumn fx:id="adno" prefWidth="123.0" text="Stream" />
+            <TableColumn fx:id="per" prefWidth="100.0" text="Percentage" />
+            <TableColumn fx:id="dob" prefWidth="120.0" text="Contact no" />
+            <TableColumn fx:id="att" prefWidth="147.0" text="Attendence(%)" />
+        </columns>
+      </TableView>
+      <Button fx:id="add" layoutX="873.0" layoutY="440.0" mnemonicParsing="false" text="Add Record" />
+      <TextField fx:id="namee" layoutX="840.0" layoutY="93.0" />
+      <TextField fx:id="cls" layoutX="840.0" layoutY="284.0" />
+      <TextField fx:id="adnoo" layoutX="840.0" layoutY="158.0" />
+      <TextField fx:id="perc" layoutX="840.0" layoutY="220.0" />
+      <TableView fx:id="tv1" layoutX="33.0" layoutY="356.0" prefHeight="270.0" prefWidth="167.0" style="-fx-background-color: #64B5F6;">
+         <columns>
+            <TableColumn fx:id="name1" prefWidth="78.0" text="Name" />
+            <TableColumn fx:id="sno1" prefWidth="88.0" text="Admission no" />
+         </columns>
+      </TableView>
+      <Label layoutX="839.0" layoutY="69.0" prefHeight="17.0" prefWidth="45.0" text="Name" />
+      <Label layoutX="839.0" layoutY="259.0" text="Stream" />
+      <Label layoutX="839.0" layoutY="195.0" text="Percentage" />
+      <Label layoutX="839.0" layoutY="131.0" text="Admission no" />
+      <Label layoutX="377.0" layoutY="14.0" prefHeight="28.0" prefWidth="315.0" text="Student Record DBMS Application" textFill="#171717">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="313.0" text="Students getting scholarship ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="839.0" layoutY="321.0" text="Contact no" />
+      <TextField fx:id="sdob" layoutX="840.0" layoutY="342.0" />
+      <Label layoutX="839.0" layoutY="381.0" text="Attendence (%)" />
+      <TextField fx:id="satt" layoutX="840.0" layoutY="404.0" />
+      <TableView fx:id="tv2" layoutX="227.0" layoutY="356.0" prefHeight="270.0" prefWidth="167.0" style="-fx-background-color: #64B5F6;">
+         <columns>
+            <TableColumn fx:id="name11" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="sno11" prefWidth="91.0" text="Admission no" />
+         </columns>
+      </TableView>
+      <TableView fx:id="tv111" layoutX="410.0" layoutY="356.0" prefHeight="270.0" prefWidth="160.0" style="-fx-background-color: #64B5F6;">
+         <columns>
+            <TableColumn fx:id="name111" prefWidth="74.0" text="Name" />
+            <TableColumn fx:id="sno111" prefWidth="83.0" text="Admission no" />
+         </columns>
+      </TableView>
+      <TableView fx:id="tv1111" layoutX="592.0" layoutY="356.0" prefHeight="270.0" prefWidth="160.0" style="-fx-background-color: #64B5F6;">
+         <columns>
+            <TableColumn fx:id="name1111" prefWidth="68.0" text="Name" />
+            <TableColumn fx:id="sno1111" prefWidth="89.0" text="Admission no" />
+         </columns>
+      </TableView>
+      <Label layoutX="242.0" layoutY="320.0" text="Science Students ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="334.0" text="(Percentage&gt;90)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="622.0" layoutY="320.0" text="Arts Students">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="426.0" layoutY="320.0" text="Commerce Students ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="49.0" text="All Students ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
